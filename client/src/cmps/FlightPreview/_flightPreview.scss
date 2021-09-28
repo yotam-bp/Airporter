@@ -1,0 +1,25 @@
+.tr{
+    button{
+        background-color:inherit;
+        padding:0.5rem
+    }
+
+    .New{ 
+        background-color:inherit;
+        color:$clr2
+    }
+
+    .Handled{ 
+        background-color:$clr3
+    }
+    .Warning{
+        background-color:#dd5a5ae5;
+    }
+
+    select{
+        width: 6rem;
+        height: 1.6rem;
+        border-radius: 4px;
+        text-align: center;
+    }
+}

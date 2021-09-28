@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    color: $clr2;
+    font-family: roboto;
+}
+html,
+body{
+    height: 100%;
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.548);
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    line-height: 1;
+    font-weight: 100;
+    // font-family: cereal-medium;
+}
+
+.app{
+    flex-grow: 1;
+    min-height: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    margin: 0 0 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+// a:hover {
+//     text-decoration: underline;
+// }
+
+button,
+label{
+    cursor: pointer;
+}
+
+footer{
+    text-align: center;
+    margin-top: auto;
+    flex-shrink: 0;
+}
+
+.alert > *{
+    font-size: 40px;
+}

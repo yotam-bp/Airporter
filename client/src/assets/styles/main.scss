@@ -1,0 +1,24 @@
+// Setup
+@import "setup/variables";
+@import "setup/functions";
+@import "setup/mixins";
+@import "setup/typography";
+
+// Basics
+@import "basics/helpers";
+@import "basics/layout";
+@import "basics/base";
+@import "basics/forms";
+
+
+// Components
+@import "../../cmps/Header/header";
+@import "../../cmps/Footer/footer";
+@import "../../cmps/FlightList/flightList";
+@import "../../cmps/FlightPreview/flightPreview";
+@import "../../cmps/Search/search";
+
+//Pages
+@import "../../pages/airporter/Airporter";
+
+

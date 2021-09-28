@@ -1,0 +1,106 @@
+// Font Sizes
+.fs12 {
+    font-size: rem(12px);
+}
+.fs14 {
+    font-size: rem(14px);
+}
+.fs16 {
+    font-size: rem(16px);
+}
+.fs18 {
+    font-size: rem(18px);
+}
+.fs20 {
+    font-size: rem(20px);
+}
+.fs22 {
+    font-size: rem(22px);
+}
+.fs24 {
+    font-size: rem(24px);
+}
+.fs28 {
+    font-size: rem(28px);
+}
+.fs30 {
+    font-size: rem(30px);
+}
+.fs34 {
+    font-size: rem(34px);
+}
+.fs38 {
+    font-size: rem(38px);
+}
+.fs40 {
+    font-size: rem(40px);
+}
+.fs42 {
+    font-size: rem(42px);
+}
+
+// flex helpers
+
+.flex {
+    display: flex;
+
+    > *.full {
+        flex: 1;
+    }
+    &.column {
+        flex-direction: column;
+    }
+    &.justify-center {
+        justify-content: center;
+    }
+    &.align-center {
+        align-items: center;
+    }
+    &.space-between {
+        justify-content: space-between;
+    }
+    &.space-evenly {
+        justify-content: space-evenly;
+    }
+    &.wrap {
+        flex-wrap: wrap;
+    }
+}
+
+.grid {
+    display: grid;
+}
+
+.divider {
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+    padding: 0;
+    margin: 1.5rem 0;
+}
+
+.loader {
+    padding-top: 100px;
+}
+
+.hover {
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.clean-list {
+    text-decoration: none;
+    list-style: none;
+}
+
+// Media helpers
+
+.square-ratio {
+    @include aspect-ratio(1, 1);
+}
+.video-ratio {
+    @include aspect-ratio(16, 9);
+}
+.portrait-ratio {
+    @include aspect-ratio(9, 16);
+}
