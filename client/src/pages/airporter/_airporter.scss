@@ -1,6 +1,9 @@
 .app-container {
-    min-height: 85vh;
+    min-height: 80vh;
 
+    & > *{
+    margin: 3rem 0 ;
+    }
     .arrivals,
     .departures {
         animation: fadeIn 2s;

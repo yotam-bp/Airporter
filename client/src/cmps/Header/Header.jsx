@@ -5,13 +5,13 @@ const Header = () => {
         <header className="main-container">
             <div className="head flex space-between align-center">
                 <div className="left">
-                    <h1>CVS Reader</h1>
+                    <h1>Airporter</h1>
                 </div>
                 <div className="right">
                     <ul className="flex clean-list justify-center align-center fs18 ">
-                        <li>Explorium</li>
+                        <li>Airporter</li>
                         <li>Home</li>
-                        <li>Task</li>
+                        <li>assignment</li>
                     </ul>
                 </div>
             </div>

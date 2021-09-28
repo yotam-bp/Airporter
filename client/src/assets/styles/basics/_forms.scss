@@ -1,14 +1,14 @@
 button {
     border:0;
-    background-color: $clr3;
-    color:$clr4;
-    padding: 0 15px;
+    background-color: rgba(47, 47, 207, 0.822);
+    color: $clr4;
+    padding: 0.6rem 1rem;
     margin: 5px;
     border-radius:5px;
     width: max-content;
     transition: background-color .3s;
     &:hover{
-        background-color: rgba(92, 138, 115, 0.664);
+        background-color: rgba(47, 47, 207, 0.671);
     }
 }
 

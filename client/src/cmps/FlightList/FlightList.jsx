@@ -8,7 +8,7 @@ const FlightList = ({ flights }) => {
         <div className="flights-table">
             <table className="table-base">
                 <tbody>
-                    <tr>
+                    <tr><th>{}</th>
                         <th>CallSign</th>
                         <th>First Seen</th>
                         <th>Last Seen</th>

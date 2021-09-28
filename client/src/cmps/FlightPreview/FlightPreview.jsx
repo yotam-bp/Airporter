@@ -8,6 +8,7 @@ const FlightPreview = ({ flight, idx }) => {
 
     return (
         <tr className="tr">
+            <td><i className="fas fa-plane"></i></td>
             <td>{flight.callsign}</td>
             <td>{utilService.getTime(flight.firstSeen)}</td>
             <td>{utilService.getTime(flight.lastSeen)}</td>

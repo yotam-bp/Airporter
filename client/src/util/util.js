@@ -1,6 +1,7 @@
 
 export const utilService = {
-    getTime
+    getTime,
+    startClock
 }
 
 function getTime(time){
@@ -12,4 +13,23 @@ function getTime(time){
     var formattedTime = hours + ':' + minutes.substr(-2) + ':' + seconds.substr(-2);
     return formattedTime;
 }
+
+// startClock()
+function startClock() {
+    const today = 0
+    let h = 0
+    let m = 0
+    let s = 0
+    m = checkTime(m);
+    s = checkTime(s);
+     console.log(h + ":" + m + ":" + s); 
+         setInterval(() => {
+        startClock()
+    }, 1000);
+  }
+  
+  function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+  }
 
